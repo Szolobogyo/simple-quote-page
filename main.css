@@ -5,7 +5,8 @@
 body{
     background: url('img/freedom.jpg') no-repeat center center fixed;
     background-size: cover; 
-    margin: 0
+    margin: 0;
+    height: calc(100% - 2.5rem);
 }
 
 p{
@@ -29,3 +30,29 @@ p{
     margin: 0 auto
 }
 
+.languages{
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+  .languages__icon{
+      margin: 0 .5rem;
+  }
+
+  .languages ul{
+      padding: 0;
+      margin: auto 0;
+      list-style: none;
+  }
+
+  .languages li{
+      display: inline-block;
+  }
+
+  img{
+      width: 1rem;
+  }
